@@ -1,0 +1,2324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3C8D4E2-995A-4C38-BD45-0C5D16E21CC3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>libskills</RootNamespace>
+    <AssemblyName>libskills</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug1660|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Bin\VisualStudio\Debug1660\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release1660|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Bin\VisualStudio\Release1660\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug270|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\VisualStudio\Debug270\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug422|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\VisualStudio\Debug422\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug997|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\VisualStudio\Debug997\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug1076|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\VisualStudio\Debug1076\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug1105|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\VisualStudio\Debug1105\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug1264|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\VisualStudio\Debug1264\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug1330|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\VisualStudio\Debug1330\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug1395|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\VisualStudio\Debug1395\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug1600|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\VisualStudio\Debug1600\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release270|AnyCPU' ">
+    <OutputPath>..\..\..\Bin\VisualStudio\Release270\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release422|AnyCPU' ">
+    <OutputPath>..\..\..\Bin\VisualStudio\Release422\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release997|AnyCPU' ">
+    <OutputPath>..\..\..\Bin\VisualStudio\Release997\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release1076|AnyCPU' ">
+    <OutputPath>..\..\..\Bin\VisualStudio\Release1076\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release1105|AnyCPU' ">
+    <OutputPath>..\..\..\Bin\VisualStudio\Release1105\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release1264|AnyCPU' ">
+    <OutputPath>..\..\..\Bin\VisualStudio\Release1264\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release1330|AnyCPU' ">
+    <OutputPath>..\..\..\Bin\VisualStudio\Release1330\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release1395|AnyCPU' ">
+    <OutputPath>..\..\..\Bin\VisualStudio\Release1395\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release1600|AnyCPU' ">
+    <OutputPath>..\..\..\Bin\VisualStudio\Release1600\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug1850|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\VisualStudio\Debug1850\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release1850|AnyCPU' ">
+    <OutputPath>..\..\..\Bin\VisualStudio\Release1850\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SkillInstance.cs" />
+    <Compile Include="Skills\Skill0.cs" />
+    <Compile Include="Skills\Skill1000.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1010.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1020.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1030.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1040.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1050.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1060.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1070.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1080.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1090.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1100.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1110.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1120.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1130.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1140.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1150.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1160.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1170.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1180.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1190.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1200.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1210.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1220.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1230.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1240.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1250.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1260.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1270.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1280.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1290.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1300.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1310.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1320.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1330.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1340.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1350.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1360.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1370.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1380.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1390.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1400.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1410.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1420.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1430.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1440.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1450.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1460.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1470.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1480.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1490.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1500.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1510.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1520.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1530.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1540.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1550.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1560.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1570.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1580.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1590.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1600.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1610.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1620.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1630.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1640.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1650.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1660.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1670.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1680.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1690.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1700.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1710.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1720.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1730.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1740.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1750.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1760.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1770.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1780.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1790.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1800.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1810.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1820.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1830.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1840.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1850.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1860.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1870.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1880.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1890.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1900.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1910.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1920.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1930.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1940.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1950.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1960.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1970.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1980.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill1990.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2000.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2010.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2020.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2030.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2040.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2050.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2060.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2070.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2080.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2090.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill210.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2100.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2110.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2120.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2130.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2140.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2150.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2160.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2170.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2180.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2190.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill220.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2200.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2210.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2220.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2230.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2240.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2250.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2260.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2270.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2280.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2290.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill230.cs" />
+    <Compile Include="Skills\Skill2300.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2310.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2320.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2330.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2340.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2350.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2360.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2370.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2380.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2390.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill240.cs" />
+    <Compile Include="Skills\Skill2400.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2410.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2420.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2430.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2440.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2450.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2460.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2470.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2480.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2490.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill250.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2500.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2510.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2520.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2530.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2540.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2550.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2560.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2570.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2580.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2590.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill260.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2600.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2610.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2620.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2630.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2640.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2650.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2660.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2670.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2680.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2690.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill270.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2700.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2710.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2720.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2730.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2740.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2750.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2760.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2770.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2780.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2790.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill280.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2800.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2810.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2820.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2830.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2840.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2850.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2860.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2870.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2880.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2890.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill290.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2900.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2910.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2920.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2930.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2940.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2950.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2960.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2970.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2980.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill2990.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill300.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3000.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3010.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3020.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3030.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3040.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3050.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3060.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3070.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3080.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3090.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill310.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3100.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3110.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3120.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3130.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3140.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3150.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3160.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3170.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3180.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3190.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill320.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3200.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3210.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3220.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3230.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3240.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3250.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3260.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3270.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3280.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3290.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill330.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3300.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3310.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3320.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3330.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3340.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3350.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3360.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3370.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3380.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3390.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill340.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3400.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3410.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3420.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3430.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3440.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3450.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3460.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3470.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3480.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3490.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill350.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3500.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3510.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3520.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3530.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3540.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3550.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3560.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3570.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3580.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3590.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill360.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3600.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3610.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3620.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3630.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3640.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3650.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3660.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3670.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3680.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3690.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill370.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3700.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3710.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3720.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3730.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3740.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3750.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3760.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3770.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3780.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3790.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill380.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3800.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3810.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3820.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3830.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3840.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3850.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3860.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3870.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3880.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3890.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill390.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3900.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3910.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3920.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3930.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3940.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3950.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3960.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3970.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3980.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill3990.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill400.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4000.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4010.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4020.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4030.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4040.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4050.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4060.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4070.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4080.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4090.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill410.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4100.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4110.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4120.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4130.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4140.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4150.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4160.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4170.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4180.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4190.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill420.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4200.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4210.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4220.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4230.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4240.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4250.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4260.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4270.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4280.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4290.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill430.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4300.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4310.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4320.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4330.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4340.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4350.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4360.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4370.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4380.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4390.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill440.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4400.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4410.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4420.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4430.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4440.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4450.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4460.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4470.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4480.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4490.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill450.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4500.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4510.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4520.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4530.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4540.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4550.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4560.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4570.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4580.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4590.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill460.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4600.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4610.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4620.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4630.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4640.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4650.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4660.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4670.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4680.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4690.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill470.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4700.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4710.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4720.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4730.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4740.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4750.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4760.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4770.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4780.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4790.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill480.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4800.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4810.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4820.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4830.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4840.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4850.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4860.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4870.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4880.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4890.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill490.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4900.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4910.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4920.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4930.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4940.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4950.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4960.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4970.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4980.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill4990.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill500.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5000.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5010.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5020.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5030.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5040.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5050.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5060.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5070.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5080.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5090.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill510.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5100.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5110.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5120.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5130.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5140.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5150.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5160.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5170.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5180.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5190.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill520.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5200.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5210.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5220.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5230.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5240.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5250.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5260.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5270.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5280.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5290.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill530.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5300.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5310.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5320.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5330.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5340.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5350.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5360.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5370.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5380.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5390.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill540.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5400.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5410.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5420.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5430.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5440.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5450.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5460.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5470.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5480.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5490.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill550.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5500.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5510.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5520.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5530.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5540.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5550.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5560.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5570.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5580.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5590.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill560.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5600.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5610.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5620.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5630.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5640.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5650.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5660.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5670.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5680.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5690.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill570.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5700.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5710.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5720.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5730.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5740.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5750.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5760.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5770.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5780.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5790.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill580.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5800.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5810.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5820.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5830.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5840.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5850.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5860.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5870.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5880.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5890.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill590.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5900.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5910.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5920.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5930.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5940.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5950.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5960.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5970.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5980.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill5990.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill600.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6000.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6010.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6020.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6030.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6040.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6050.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6060.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6070.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6080.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6090.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill610.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6100.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6110.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6120.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6130.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6140.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6150.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6160.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6170.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6180.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6190.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill620.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6200.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6210.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6220.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6230.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6240.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6250.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6260.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6270.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6280.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6290.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill630.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6300.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6310.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6320.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6330.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6340.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6350.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6360.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6370.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6380.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6390.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill640.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6400.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6410.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6420.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6430.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6440.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6450.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6460.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6470.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6480.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6490.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill650.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6500.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6510.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6520.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6530.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6540.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6550.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6560.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6570.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6580.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6590.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill660.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6600.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6610.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6620.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6630.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6640.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6650.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6660.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6670.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6680.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6690.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill670.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6700.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6710.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6720.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6730.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6740.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6750.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6760.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6770.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6780.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6790.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill680.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6800.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6810.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6820.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6830.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6840.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6850.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6860.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6870.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6880.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6890.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill690.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6900.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6910.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6920.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6930.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6940.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6950.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6960.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6970.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6980.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill6990.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill700.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7000.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7010.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7020.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7030.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7040.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7050.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7060.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7070.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7080.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7090.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill710.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7100.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7110.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7120.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7130.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7140.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7150.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7160.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7170.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7180.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7190.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill720.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7200.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7210.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7220.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7230.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill7240.cs" />
+    <Compile Include="Skills\Skill730.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill740.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill750.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill760.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill770.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill780.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill790.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill800.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill810.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill820.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill830.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill840.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill850.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill860.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill870.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill880.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill890.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill900.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill910.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill920.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill930.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill940.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill950.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill960.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill970.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill980.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skills\Skill990.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Skill\PlayerWrapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Skill\Skill.cs" />
+    <Compile Include="Skill\SkillState.cs" />
+    <Compile Include="Skill\SkillStub.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
